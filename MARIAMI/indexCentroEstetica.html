@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Estética</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Encabezado (navbar) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img id="logo" src="/img/logoSinFondoBlanco.png" width="100px"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid text-center jumbotron-blur py-5 mt-5">
+        <div class="container">
+            <h1 class="display-4">Bienvenido a Mariami Centro de Estetica</h1>
+            <p class="lead">Ofrecemos una amplia gama de servicios para realzar tu belleza y bienestar.</p>
+        </div>
+    </header>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-5 mt-5">
+
+        <div class="container">
+            <h2 class="text-center mb-5 display-4">Nuestros Servicios</h2>
+            <!--responsive(row) cards y servicios con redireccionamiento a html de cada servicio-->
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="service-item px-4 mb-4">
+                        <div class="card">
+                            <a href="/servicioUñas.html">
+                                <img src="/img/servicioUñas.jpeg" class="card-img-top" alt="Pintado de Uñas">
+                                <div class="card-body">
+                                    <h5 class="card-title">Esmaltado de Uñas</h5>
+                                    <p class="card-text">Ofrecemos una variedad de estilos y colores para embellecer tus uñas.</p>
+                                </div>
+
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="service-item px-4 mb-4">
+                        <div class="card">
+                            <a href="/servicioPestañas.html">
+                                <img src="/img/servicioPestañas.jpeg" class="card-img-top" alt="Pestañas">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pestañas</h5>
+                                    <p class="card-text">Realzamos tu mirada con extensiones de pestañas y otros tratamientos.</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 mb-4">
+                    <div class="service-item px-4 mb-4">
+                        <div class="card">
+                            <a href="/servicioFacial.html">
+                                <img src="/img/servicioFacial.jpg" class="card-img-top" alt="Tratamientos Faciales" height="519.33">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tratamientos Faciales</h5>
+                                    <p class="card-text">Disfruta de nuestros tratamientos faciales personalizados para cuidar y rejuvenecer tu piel.</p>
+                                </div>
+                                
+                            </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--form de contacto-->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h5>Información de contacto:</h5>
+                    <p>Dirección: Don Bosco 1722, San Miguel de Tucuman</p>
+                    <p>Teléfono: 123-456-7890</p>
+                    <p>Correo electrónico: miccacostaa@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer de derechos reservadors-->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2023 Mariami Estetica &copy;. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

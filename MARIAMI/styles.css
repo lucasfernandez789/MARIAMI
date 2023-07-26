@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+  }
+
+.jumbotron-blur {
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.service-item {
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+  }
+
+.service-item a{
+    text-decoration: none;
+    color: black;
+}
+  
+  

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+  }
+
+.videoYoutube{
+    align-self: flex-end;
+    padding-top: 50px;
+    border-radius: 5px;
+}
+
+h1{
+    padding-bottom: 50px;
+}
+
+#carouselExampleFade{
+    border-radius: 50px;
+}
+
+.embed-responsive {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 50px;
+    height: 0;
+    overflow: hidden;
+    
+}
+.embed-responsive iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

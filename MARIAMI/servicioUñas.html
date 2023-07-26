@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesServicios.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Encabezado (navbar) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand navbar-dark" href="#"><img id="logo" src="/img/logoSinFondoBlanco.png" width="100px"></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/indexCentroEstetica.html">Volver</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Contenido del servicio responsive(row)-->
+    <section class="service-section py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <!--descripcion breve del servicio y diferentes estilos-->
+                    <h1 class="mb-4">Esmaltado de Uñas</h1>
+                    <p class="mb-4">Nuestro servicio de esmaltado de uñas te ofrece la oportunidad de embellecer tus manos con una amplia gama de colores y acabados. Nuestro equipo de profesionales altamente capacitados se asegurará de que tus uñas luzcan impecables y atractivas.</p>
+                    <p class="mb-4">Ofrecemos diferentes tipos de esmaltado de uñas para satisfacer tus necesidades y preferencias:</p>
+                    <ul>
+                        <li>Esmalte regular: Ideal para un look clásico y duración de hasta una semana.</li>
+                        <li>Esmalte semipermanente: Disfruta de uñas impecables durante 2-3 semanas sin descascarillarse.</li>
+                        <li>Uñas acrílicas o de gel moldeadas: Obtén mayor longitud y forma con nuestras extensiones de uñas personalizadas.</li>
+                        <li>Uñas de gel sobre uñas naturales: Fortalece tus uñas naturales y aumenta su durabilidad con un acabado de gel de larga duración.</li>
+                        <li>Uñas de porcelana: Añade resistencia y belleza con nuestras uñas de porcelana, conocidas por su durabilidad.</li>
+                    </ul>
+                    <p>Ya sea que estés buscando un look sutil y elegante o un diseño más atrevido y creativo, nuestro servicio de esmaltado de uñas te brindará resultados sorprendentes y duraderos.</p>
+                    
+                </div>
+                <div class="col-md-6">
+                    <!--carousel con imagenes reales de cada servicio-->
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/img/servicios/servicios uñas/WhatsApp Image 2023-06-05 at 22.30.21.jpeg" class="d-block w-100" alt="servicio1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/img/servicios/servicios uñas/WhatsApp Image 2023-06-05 at 22.32.04 (1).jpeg" class="d-block w-100" alt="servicio2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/img/servicios/servicios uñas/WhatsApp Image 2023-06-05 at 22.32.04.jpeg" class="d-block w-100" alt="servicio3">
+                          </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+
+                <!--video ejemplo del servicio-->
+                
+                <div class="embed-responsive embed-responsive-16by9 mb-8 ">
+                    <iframe width="560" height="560" src="https://www.youtube.com/embed/FCWi4uqDthk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--section de contacto del usuario al emprendimiento-->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h5>Información de contacto:</h5>
+                    <p>Dirección: Don Bosco 1722, San Miguel de Tucuman</p>
+                    <p>Teléfono: 123-456-7890</p>
+                    <p>Correo electrónico: miccacostaa@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página (footer) -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>Derechos de autor &copy; Mariami Estetica. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
